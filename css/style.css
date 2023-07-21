@@ -594,10 +594,6 @@ video {
   bottom: 4rem;
 }
 
-.bottom-20 {
-  bottom: 5rem;
-}
-
 .bottom-36 {
   bottom: 9rem;
 }
@@ -626,10 +622,6 @@ video {
   z-index: -10;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
 .z-20 {
   z-index: 20;
 }
@@ -645,14 +637,6 @@ video {
 
 .mb-10 {
   margin-bottom: 2.5rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .mb-5 {
@@ -705,10 +689,6 @@ video {
 
 .w-6 {
   width: 1.5rem;
-}
-
-.w-80 {
-  width: 20rem;
 }
 
 .w-96 {
@@ -803,12 +783,6 @@ video {
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
-.space-y-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
-
 .space-y-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
@@ -873,11 +847,6 @@ video {
   padding-right: 0px;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -924,20 +893,12 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
 .pt-1 {
   padding-top: 0.25rem;
 }
 
 .pt-12 {
   padding-top: 3rem;
-}
-
-.pt-8 {
-  padding-top: 2rem;
 }
 
 .text-left {
@@ -992,13 +953,6 @@ video {
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.heading-md {
-  font-size: 48px;
-  line-height: 56px;
-  letter-spacing: -1.5px;
-  font-weight: 700;
 }
 
 .heading-sm {
@@ -1061,18 +1015,6 @@ html {
     display: none;
   }
 
-  .md\:w-2\/5 {
-    width: 40%;
-  }
-
-  .md\:w-3\/5 {
-    width: 60%;
-  }
-
-  .md\:w-full {
-    width: 100%;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1081,16 +1023,8 @@ html {
     flex-direction: row;
   }
 
-  .md\:flex-row-reverse {
-    flex-direction: row-reverse;
-  }
-
   .md\:items-start {
     align-items: flex-start;
-  }
-
-  .md\:justify-end {
-    justify-content: flex-end;
   }
 
   .md\:justify-between {
@@ -1133,10 +1067,6 @@ html {
     display: block;
   }
 
-  .lg\:flex {
-    display: flex;
-  }
-
   .lg\:hidden {
     display: none;
   }
@@ -1153,10 +1083,6 @@ html {
     align-items: flex-start;
   }
 
-  .lg\:justify-center {
-    justify-content: center;
-  }
-
   .lg\:justify-between {
     justify-content: space-between;
   }
@@ -1165,11 +1091,6 @@ html {
     --tw-space-x-reverse: 0;
     margin-right: calc(2.5rem * var(--tw-space-x-reverse));
     margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .lg\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
   }
 
   .lg\:pb-16 {
